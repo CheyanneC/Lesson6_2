@@ -11,9 +11,14 @@ public class Patron
         b3 = null;
     }
     
+    public String getName()
+    {
+        return name;
+    }
+    
     public boolean Borrow(Book temp)
     {
-        boolean canborrow = (b1 = null || b2 = null || b3 = null);
+        boolean canborrow = (b1 == null || b2 == null || b3 == null);
         
         if(canborrow)
         {
