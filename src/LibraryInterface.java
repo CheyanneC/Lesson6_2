@@ -28,5 +28,7 @@ public class LibraryInterface
 //        pname = c.readLine();
         
         p = new Patron("Cheyanne Carvajal");
+        
+        c.println("\nLending 4 books to " + p.getName());
     }
 }
