@@ -24,9 +24,6 @@ public class LibraryInterface
         c.println(b4.toString());
         c.println(b5.toString());
         
-//        c.println("What is your name? ");
-//        pname = c.readLine();
-        
         p = new Patron("Cheyanne Carvajal");
         
         c.println("\nLending 4 books to " + p.getName());
