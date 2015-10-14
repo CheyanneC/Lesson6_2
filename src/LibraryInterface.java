@@ -5,9 +5,7 @@ public class LibraryInterface
     public static void main(String[] args) 
     {
         Console c = new Console();
-        
-        String pname;
-        
+
         Patron p;
         
         Book b1, b2, b3, b4, b5;
