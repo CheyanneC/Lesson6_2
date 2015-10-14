@@ -10,7 +10,7 @@ public class Book
     
     public String toString()
     {
-        return "Title\t" + title + "\nAuthor\t" + author;
+        return title + "\t" + author;
     }
     
     public String getTitle()
